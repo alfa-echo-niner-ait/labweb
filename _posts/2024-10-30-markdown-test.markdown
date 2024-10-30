@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Markdown test"
-date:   2024-10-30
-categories: site update
+title: "Markdown test"
+date: 2024-10-30
+tags: update team
 ---
 
 ### My Title
@@ -14,7 +14,7 @@ categories: site update
 </div>
 
 <div class="img-fluid text-center">
-    <img src="{{ '/assets/jiehan.jpg' | relative_url }}" alt="Alt text" class="img-fluid border rounded">
+    <img src="{{ '/assets/imgs/jiehan.jpg' | relative_url }}" alt="Alt text" class="img-fluid border rounded">
 </div>
 
 ### Listed Items
