@@ -3,19 +3,19 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <header>
       {%- include header.html -%}
     </header>
-    <main class="container mt-3">
+    <main class="container mt-3" role="main">
       {{ content }}
     </main>
 
     {%- include footer.html -%}
 
     <script src=></script>
-    <script src="{{ "/assets/jquery-3.7.1.min.js" | relative_url }}"></script>
-    <script src="{{ "/assets/bootstrap.bundle.min.js" | relative_url }}"></script>
+    <script src="{{ '/assets/jquery-3.7.1.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/bootstrap.bundle.min.js' | relative_url }}"></script>
   </body>
 
 </html>
